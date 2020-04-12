@@ -9,7 +9,7 @@ import router from './routes';
 //Utilizamos el valor que esta disponible en navegador
 //Window, el cual nos permite saber si esta en el contexto de la aplicacion
 //addEventListener, es un manejador de eventos, el cual
-//va a estar escuchado si algo sucede, 
+//va a estar escuchado si algo sucede,
 //en este caso si la carga de la pagina a sucedido
 window.addEventListener('load', router);
 //tambien podriamos pasar una funcion anonima con la misma funcion cambio de router
