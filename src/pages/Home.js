@@ -26,7 +26,7 @@ const Home = async () => {
                         <img src="${character.image}" alt="${character.name}">
                         <h2>${character.name}</h2>
                     </a>
-                </article>      
+                </article>
 
             `).join('')}
 
@@ -41,6 +41,6 @@ const Home = async () => {
     return view;
 };
 
-//lo exportamos por que nos va a permitir identificar si 
+//lo exportamos por que nos va a permitir identificar si
 //este archivo puede ser utilizado dentro de otros archivos js
 export default Home;
