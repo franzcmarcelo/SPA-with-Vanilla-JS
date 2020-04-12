@@ -1,7 +1,3 @@
-//Construimos el script que nos va a permitir
-//automatizar el proceso de enviar a produccion nuestro proyecto
-
-
 language: node_js
 cache:
   directories:
